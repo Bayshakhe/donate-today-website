@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+/* header design starts */
+header{
+    background-image: url("../images/donation13.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #808080;
+    background-blend-mode: multiply;
+}
+.header{
+    color: white;
+    padding: 200px;
+    text-align: center;
+}
+.header-title{
+    font-size: 80px;
+    font-weight: 700;
+}
+.header-description{
+    font-size: 20px;
+    color: #D3D3D3;
+    margin: 30px 0;
+    padding: 0 200px;
+}
+.btn-primary{
+    background-color: #f56a5b;
+    border: none;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 5px;
+    font-size: 25px;
+}
