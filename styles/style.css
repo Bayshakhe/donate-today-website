@@ -89,7 +89,7 @@ header{
     display: flex;
     text-align: left;
     justify-content: space-evenly;
-    gap: 20px;
+    gap: 70px;
     margin: 50px auto;
 }
 .card-title{
@@ -101,19 +101,37 @@ header{
 }
 .card-1{
     background-color: #E0FFFF;
-    margin-right:50px;
     padding: 50px 30px;
     border-radius: 5px;
 }
 .card-2{
     background-color: #FFE4E1;
-    margin-right:50px;
     padding: 50px 30px;
     border-radius: 5px;
 }
 .card-3{
     background-color: #FFEBCD;
-    margin-right:50px;
     padding: 50px 30px;
     border-radius: 5px;
+}
+/* article section design starts */
+article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+article h2{
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+article p{
+    font-size: 20px;
+    color: #808080;
+    margin-bottom: 20px;
+}
+article img{
+    width: 50%;
 }
