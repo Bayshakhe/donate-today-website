@@ -135,3 +135,38 @@ article p{
 article img{
     width: 50%;
 }
+/* fourth section design starts */
+.input-field{
+    background-color: #FFEBCD;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 60px 200px;
+}
+.input-field input{
+    border: none;
+    margin: 30px 0;
+    background-color: #DCDCDC;
+    border: none;
+    padding: 0 20px;
+    border-radius: 5px 0 0 5px;
+    font-size: 18px;
+}
+.input-field button{
+    border-radius: 0 5px 5px 0;
+    margin: 30px 0;
+    font-size: 18px;
+}
+/* footer section design starts */
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+    color: #808080;
+}
+.footer-title{
+    font-family: 'Pacifico', cursive;
+    color: OrangeRed;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
