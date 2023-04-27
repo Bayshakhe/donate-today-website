@@ -70,7 +70,7 @@ header{
     padding: 50px 30px;
     border-radius: 10px;
 }
-.donate:hover{
+.active{
     background-color: #fee7e5;
     color: #f56a5b;
     border: 1px solid #f56a5b;
@@ -169,4 +169,97 @@ footer{
     color: OrangeRed;
     font-size: 32px;
     margin-bottom: 20px;
+}
+
+/* Responsive design style */
+@media screen and (max-width: 576px) {
+    header{
+        background-image: none;
+
+    }
+    .header,
+    .header-description,
+    .section-description{
+        padding: 10px;
+        margin: 10px;
+    }
+    .section-description{
+        font-size: 16px;
+        margin: 30px 0;
+    }
+    .header-title{
+        font-size: 50px;
+    }
+    .btn-primary{
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    .section,
+    .donate-amount{
+        margin: 20px;
+    }
+    .section-title{
+        font-size: 35px;
+    }
+    .amounts{
+        margin: 10px;
+        flex-direction: column;
+    }
+    .donate{
+        font-size: 20px;
+        padding: 30px 10px;
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .cards{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .card-description{
+        font-size: 16px;
+    }
+    .card-1, .card-2, .card-3{
+        padding: 20px 10px;
+    }
+    article{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: left;
+        gap: 50px;
+        margin-bottom: 100px;
+    }
+    article h2{
+        font-size: 35px;
+        margin-bottom: 25px;
+    }
+    article p{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    article img{
+        width: 100%;
+    }
+    .input-field{
+        padding: 10px;
+        margin: 20px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .input-field input{
+        margin: 30px 50px;
+        padding: 10px;
+        font-size: 16px;
+    }
+    .input-field button{
+        margin: 0;
+        font-size: 16px;
+    }
+    footer{
+        padding: 20px;
+    }
+    .footer-title{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
 }
